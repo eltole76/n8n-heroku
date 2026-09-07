@@ -5,7 +5,7 @@ USER root
 WORKDIR /home/node/packages/cli
 ENTRYPOINT []
 
-RUN npm install --global n8n-nodes-telegram-better-markdown@1.0.0
+RUN npm install --global n8n-nodes-telegram-better-markdown
 
 COPY ./entrypoint.sh /
 RUN chmod +x /entrypoint.sh

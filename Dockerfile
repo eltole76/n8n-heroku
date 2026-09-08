@@ -7,5 +7,4 @@ ENTRYPOINT []
 
 COPY ./entrypoint.sh /
 RUN chmod +x /entrypoint.sh
-USER node
 CMD ["/entrypoint.sh"]
